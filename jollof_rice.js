@@ -5,10 +5,10 @@ class FoodRecipe
   String ingredients;
   String prep;
 
-  Posters({
-    this.imageUrl,
-    this.title,
-    this.ingredients,
+  FoodRecipe({
+    	this.imageUrl,
+    	this.title,
+    	this.ingredients,
 	this.prep,
 
   });
